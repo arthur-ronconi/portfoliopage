@@ -1,39 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!doctype html>
+<html lang="ptbr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+
     <title>Arthur Ronconi &#8226; Portfolio</title>
-</head>
-<body>
-    <div class="container">
-        <nav class="clearfix">
-            <a href="#">Arthur Ronconi</a>
-            <a href="https://www.behance.net/ronconi" target="blank" ><img src="img/behance-logo-button.svg" alt="Behance"></a>
-        </nav>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3 sticky-top">
+        <div class="container border-bottom border-dark">
+            <a class="navbar-brand h1 mt-1" href="index.html">Arthur Ronconi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <header>
-            <h1>Design Gráfico + Web</h1>
-            <p>Estudante de graduação em design pela Universidade Federal do Espírito Santo.<br>Procurando uma oportunidade para entrar no mercado de desenvolvimento front-end.<br>E também sei fazer café.</p>
-        </header>
-
-        <div class="trabalhos">
-            <a href="https://www.behance.net/gallery/72332343/livreto-semiotica-para-leigos" target="blank"><img src="img/semiotica.png" alt="Livreto 'Semiótica para Leigos'"></a>
-            <a href="https://www.behance.net/gallery/68374519/BEACH-CAFE" target="blank"><img src="img/cafe.png" alt="Beach Café: marca"></a>
-            <a href="https://www.behance.net/gallery/67764739/Photoshop-Alura" target="blank"><img src="img/alura.png" alt="Exercícios Alura"></a>
-            <a href="https://www.behance.net/gallery/63062047/low-poly-AURORA" target="blank"><img src="img/aurora.png" alt="Ilustração 'Low Poly'"></a>
-            <a href="https://www.behance.net/gallery/65988635/Tipografia-floral" target="blank"><img src="img/floral.png" alt="Tipografia Floral"></a>
-            <a href="https://www.behance.net/gallery/62090583/Graphein" target="blank"><img src="img/graphein.png" alt="Revista 'Graphein'"></a>
-            <a href="https://www.behance.net/gallery/62092151/Uvas-Capixabas" target="blank"><img src="img/uvas.png" alt="Infográfico 'Uvas Capixabas'"></a>
+            <div class="collapse navbar-collapse text-lowercase" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#galeria">Trabalhos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <footer>
-            <p>2019 &#8226; Arthur Ronconi</p>
-        </footer>
+    </nav>
+    <div class="jumbotron bg-light rounded-0">
+        <div class="container">
+            <h1 class="display-4 mb-4">Design Gráfico + Web</h1>
+            <p class="lead">Estudante de graduação em design pela Universidade Federal do Espírito Santo.<br>Procurando uma oportunidade para entrar no mercado de desenvolvimento front-end.<br>E também sei fazer café.</p>
+        </div>
     </div>
-    
-</body>
+    <div class="container" id="galeria">
+        <div class="row mb-4">
+            <div class="col-md-6 mb-4">
+                <a href="https://www.behance.net/gallery/72332343/livreto-semiotica-para-leigos" target="blank"><img class="img-fluid gallery-img" src="img/semiotica.png" alt="?"></a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="https://www.behance.net/gallery/68374519/BEACH-CAFE" target="blank"><img class="img-fluid" src="img/cafe.png" alt="?"></a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="https://www.behance.net/gallery/67764739/Photoshop-Alura" target="blank"><img class="img-fluid" src="img/alura.png" alt="?"></a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="https://www.behance.net/gallery/63062047/low-poly-AURORA" target="blank"><img class="img-fluid" src="img/aurora.png" alt="?"></a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="https://www.behance.net/gallery/65988635/Tipografia-floral" target="blank"><img class="img-fluid" src="img/floral.png" alt="?"></a>
+            </div>
+            <div class="col-md-6 mb-4">
+                <a href="https://www.behance.net/gallery/62090583/Graphein" target="blank"><img class="img-fluid" src="img/graphein.png" alt="?"></a>
+            </div>
+            <div class="col-md-6 mb-4 d-none">
+                <a href="https://www.behance.net/gallery/62092151/Uvas-Capixabas" target="blank"><img class="img-fluid" src="img/uvas.png" alt="?"></a>
+            </div>
+
+
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <div class="container text-right text-light pt-5 pb-4">
+            <p>2019 &#8226; <a href="index.html">Arthur Ronconi</a></p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
 </html>
